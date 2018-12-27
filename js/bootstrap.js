@@ -20,6 +20,7 @@
     $('#carracerText').css('opacity','0');
 
 
+    /* Scrolling javascript */
     $(window).scroll(function(){
 
       if($('#aboutprgh').offset().top + $('#aboutprgh').outerHeight() < ($(window).height() + $(window).scrollTop())){
@@ -51,7 +52,6 @@
       }
 
     });
-
 
     $('.titlefont').delay(500).fadeTo(1000,1);
     $('.firstImage').delay(500).fadeTo(1000,1);
